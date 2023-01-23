@@ -10,7 +10,7 @@ function sendEmail() {
     SecureToken : "585b81bb-37a9-4a98-8c00-9f4232394efc",
     To : 'loma8064@gmail.com',
     From : "loma8064@gmail.com",
-    Subject : "New Subject",
+    Subject : "New Message",
     Body :  body + "<br><br>" + txt + "<br><br>" + URL,
 })
     name.value="";
