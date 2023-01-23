@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/ico.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header"></header>
+
+    <!-- header section ends -->
+
+
+    <!-- shopping cart section starts  -->
+
+    <section class="shopping-cart">
+
+        <h1 class="heading">your <span>products</span></h1>
+
+        <div class="box-container">
+
+        </div>
+        
+        <div class="cart-total">
+            <h3> subTotal : <span class="cart-total-price"></span> </h3>
+            <h3> Delivery : <span class="Delivery"></span> </h3>
+            <h3> Total    : <span class="cart-total-price2"></span> </h3>
+
+            <div id="contact-form"  class="contact contact-form">
+                <form name="submit-to-google-sheet">
+                    <h3>ادخل بياناتك</h3>
+                    <div class="inputBox">
+                        <input name="name"    type="text"  placeholder="your name"    class="name"       required>
+                        <input name="phone"   type="tel"   placeholder="your phone"   class="phone"      required>
+                        <input name="address" type="text"  placeholder="your address" class="address"    required>
+                        <input name="notes"   type="text"  placeholder="your notes"   class="notes" >
+                        <input name="order"   type="text"  placeholder="your order"   class="text_order" required style="display: none;">
+                        <input name="total"   type="text"  placeholder="total"        class="total"      required style="display: none;">
+                        <input name="date"    type="text"  placeholder="date"         value="=today()"   required style="display: none;">
+
+                    </div>
+                    <input type="submit" name="submit" class="btn btn_sent" value="ارسال الطلب">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- shopping cart section ends -->
+
+      <script>
+       
+      </script>
+
+
+    <!-- footer section starts  -->
+
+    <section class="quick-links"></section>
+    <section class="credit"></section>
+
+
+    <!-- footer section ends -->
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/partails.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>
